@@ -28,5 +28,4 @@ cropped_green_middle = green.crop(coordinates)
 monro3 = Image.merge("RGB", (blend_red, cropped_green_middle, blend_blue))
 
 monro3.thumbnail((80, 80))
-print(monro3.size)
 monro3.save("monro3.jpg")
